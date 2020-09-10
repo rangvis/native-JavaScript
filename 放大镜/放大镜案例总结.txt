@@ -1,0 +1,16 @@
+
+        创建对象：class Enlarge {}
+        描述对象：
+            静态属性：
+                把放大镜放在哪个容器中（传递一个页面中已经存在的元素），this.ele
+                放大镜的内容 goodlist    this.date
+            动态方法：
+                init()
+                renderShow（） 渲染show盒子的标签
+                renderList（） 渲染小图片的标签
+                renderEnlarge（） 渲染放大镜的标签
+                setStyle() 设置放大镜盒子的宽高（放大镜的宽高由 show盒子大小，遮罩层的大小和 放大镜背景图的大小决定）
+                move（） 在show盒子移动的时候，右边的背景图跟着移动
+                change() 点击小图片的时候，show盒子中的图片和放大镜的图片跟着切换
+        操作对象
+                

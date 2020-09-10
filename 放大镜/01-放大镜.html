@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/enlarge.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <!-- <div class="show">
+            <img src="./images/img1_430x430.jpg">
+            <div class="mask"></div>
+        </div>
+        <div class="list">
+            <p class="active"><img src="./images/img1_60x60.jpg"></p>
+            <p><img src="./images/img2_60x60.jpg"></p>
+            <p><img src="./images/img3_60x60.jpg"></p>
+            <p><img src="./images/img4_60x60.jpg"></p>
+            <p><img src="./images/img5_60x60.jpg"></p>
+        </div>
+        <div class="enlarge"></div> -->
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/enlarge.js"></script>
+    <script>
+        let goodList = [{
+            small: './images/img1_60x60.jpg',
+            medium: './images/img1_430x430.jpg',
+            big: './images/img1_750x1000.jpg'
+        }, {
+            small: './images/img2_60x60.jpg',
+            medium: './images/img2_430x430.jpg',
+            big: './images/img2_750x1000.jpg'
+        }, {
+            small: './images/img3_60x60.jpg',
+            medium: './images/img3_430x430.jpg',
+            big: './images/img3_750x1000.jpg'
+        }, {
+            small: './images/img4_60x60.jpg',
+            medium: './images/img4_430x430.jpg',
+            big: './images/img4_750x1000.jpg'
+        }, {
+            small: './images/img5_60x60.jpg',
+            medium: './images/img5_430x430.jpg',
+            big: './images/img5_750x1000.jpg'
+        }];
+        new Enlarge('.box', goodList)
+    </script>
+</body>
+
+</html>
